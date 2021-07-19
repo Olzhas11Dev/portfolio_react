@@ -1,0 +1,37 @@
+.header_container {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: 14px;
+}
+
+.header_links {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_links li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  cursor: pointer;
+  font-weight: 300;
+}
+
+.header_git {
+  margin-right: 10px;
+  width: 14px;
+  height: 14px;
+  fill: #61f4ad;
+}
+
+.header_mail {
+  width: 20px;
+  height: 20px;
+}
