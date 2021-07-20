@@ -1,0 +1,112 @@
+.form_container {
+  margin-top: 60px;
+  padding-left: 100px;
+  padding-right: 100px;
+  width: 100vmax;
+  height: 400px;
+  display: flex;
+}
+
+.form_left {
+  width: 50%;
+}
+
+.form_left h1 {
+  margin-bottom: 20px;
+  color: #61f4ad;
+}
+
+.form_left h2 {
+  margin-bottom: 20px;
+  font-weight: 300;
+  color: grey;
+}
+
+.form_name_email {
+  width: 90%;
+  display: flex;
+}
+
+.form_name,
+.form_email {
+  width: 50%;
+  height: 40px;
+  background-color: #222527;
+  border: 1px solid #222527;
+  outline: none;
+  color: grey;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.form_subjectDIv {
+  width: 90%;
+}
+
+.form_subject {
+  margin-top: 10px;
+  width: 99%;
+  height: 40px;
+  background-color: #222527;
+  border: 1px solid #222527;
+  outline: none;
+  color: grey;
+  padding: 10px;
+}
+
+.form_textAreaDIv {
+  width: 90%;
+}
+.form_textArea {
+  margin-top: 10px;
+  width: 99%;
+  background-color: #222527;
+  border: 1px solid #222527;
+  outline: none;
+  color: grey;
+  padding: 10px;
+  resize: none;
+  font-family: "Roboto", sans-serif;
+}
+
+/* right Testimonials section */
+
+.form_right {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.form_right h1 {
+  margin-bottom: 20px;
+}
+
+.form_right h2 {
+  margin-bottom: 20px;
+  font-weight: 300;
+  color: grey;
+}
+
+.form_testim {
+  margin: auto;
+  width: 100%;
+  height: 290px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30%;
+  background-color: #222527;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.form_test_content {
+  width: 70%;
+  font-size: 12px;
+  margin: -50px auto;
+}
+
+.testim_left,
+.testim_right {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
