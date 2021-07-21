@@ -5,6 +5,11 @@ import dataTestim from '../dataTestim'
 
 function FormSection() {
     const[index,setIndex] = useState(0)
+    const[name,setName] = useState('')
+    const[email,setEmail] = useState('')
+    const[subject,setSubject] = useState('')
+    const[description,setDescription] = useState('')
+
     function next (){
       setIndex(index+1)
       if(index===dataTestim.length-1){
@@ -19,21 +24,24 @@ function FormSection() {
     }
 }
 
+console.log(name,email,subject,description)
+
     return (
         <div className='form_container'>
             <div className="form_left">
                 <h1>Contact me</h1>
                 <h2>I'd love to hear from you</h2>
                 <div className="form_name_email" >
-                    <input  className='form_name' type="text" placeholder="Name" />
-                    <input  className='form_email' type="text" placeholder="Email" />
+                    <input  onChange={(e)=>setName(e.target.value)} className='form_name' type="text" placeholder="Name" value={name}/>
+                    <input  onChange={(e)=>setEmail(e.target.value)} className='form_email' type="text" placeholder="Email" value={email}/>
                 </div>
                 <div className = 'form_subjectDIv' >
-                    <input  className='form_subject' type="text" placeholder="Subject" />   
+                    <input  onChange={(e)=>setSubject(e.target.value)} className='form_subject' type="text" placeholder="Subject" value={subject}/>   
                 </div>
                 <div className="form_textAreaDIv" >
-                    <textarea className='form_textArea' name="" id="" cols="30" rows="10" placeholder="Description" ></textarea>
+                    <textarea onChange={(e)=>setDescription(e.target.value)} className='form_textArea' name="" id="" cols="30" rows="10" placeholder="Description" value={description} spellCheck="false" ></textarea>
                 </div>
+                <button className="form_btn" >Send</button>
             </div>
             <div className="form_right">
                 <h1 >Testimonials</h1>

@@ -5,6 +5,7 @@
   width: 100vmax;
   height: 400px;
   display: flex;
+  margin-bottom: 60px;
 }
 
 .form_left {
@@ -34,7 +35,7 @@
   background-color: #222527;
   border: 1px solid #222527;
   outline: none;
-  color: grey;
+  color: white;
   padding: 10px;
   margin-right: 5px;
 }
@@ -50,7 +51,7 @@
   background-color: #222527;
   border: 1px solid #222527;
   outline: none;
-  color: grey;
+  color: white;
   padding: 10px;
 }
 
@@ -60,13 +61,33 @@
 .form_textArea {
   margin-top: 10px;
   width: 99%;
+  height: 130px;
   background-color: #222527;
   border: 1px solid #222527;
   outline: none;
-  color: grey;
+  color: white;
   padding: 10px;
   resize: none;
   font-family: "Roboto", sans-serif;
+}
+
+.form_btn {
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid #61f4ad;
+  background-color: #222527;
+  color: #61f4ad;
+  margin-top: 10px;
+  width: 40%;
+  height: 40px;
+  box-shadow: inset 0 0 0 0 #61f4ad;
+  transition: ease-in-out 0.3s;
+}
+
+.form_btn:hover {
+  box-shadow: inset 200px 0 0 0 #61f4ad;
+  color: #222527;
 }
 
 /* right Testimonials section */
