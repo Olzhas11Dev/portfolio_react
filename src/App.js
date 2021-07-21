@@ -3,7 +3,7 @@ import './App.css';
 import Header from './components/Header'
 import Body from './components/Body'
 import About from './components/About'
-import Form from './components/Form'
+import FormSection from './components/FormSection'
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <Header/>
       <Body/>
       <About/>
-      <Form/>
+      <FormSection/>
     </div>
   );
 }

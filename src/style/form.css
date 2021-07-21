@@ -96,12 +96,7 @@
   background-color: #222527;
   padding-left: 10px;
   padding-right: 10px;
-}
-
-.form_test_content {
-  width: 70%;
-  font-size: 12px;
-  margin: -50px auto;
+  border-radius: 4px;
 }
 
 .testim_left,
@@ -109,4 +104,39 @@
   width: 20px;
   height: 20px;
   cursor: pointer;
+}
+
+.form_test_content {
+  width: 80%;
+  height: 200px;
+  font-size: 12px;
+  margin: -100px auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.test_photo img {
+  width: 150px;
+  border-radius: 50%;
+  margin-right: 60px;
+}
+
+.test_info_blog {
+  width: 50%;
+}
+
+.test_comment {
+  font-size: 10px;
+  font-weight: 300;
+  height: 40px;
+}
+
+.test_name {
+  width: 120%;
+  display: flex;
+  margin-top: 100px;
+  font-size: 20px;
+  color: #61f4ad;
+  margin-bottom: 20px;
 }

@@ -8,9 +8,9 @@ function About() {
     return (
         <div className="about_container">
             <div className="about_left">
-                {dataSkills.map(function(e){
+                {dataSkills.map(function(e,index){
                     return (
-                        <Card skills = {e.skills} tools={e.tools} text={e.text} />
+                        <Card key={index} skills = {e.skills} tools={e.tools} text={e.text} />
                     )
                 })}     
 

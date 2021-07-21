@@ -3,56 +3,22 @@ import '../style/form.css'
 import { AiOutlineLeftCircle,AiOutlineRightCircle } from 'react-icons/ai'
 import dataTestim from '../dataTestim'
 
-
-
-
-function Form() {
-    const[index,setIndex] = useState(1)
-    
-    const[element,setElement] = useState({
-        firstName: dataTestim[0].firstName,
-        familyName:dataTestim[0].familyName,
-        comment: dataTestim[0].comment,
-    })
-
+function FormSection() {
+    const[index,setIndex] = useState(0)
     function next (){
-        setIndex(index+1)
-        if(index===dataTestim.length-1){
-            setIndex(0)
-        }
-        dataTestim.map(function(e){
-            if(index===e.id){
-                setElement({
-                    firstName:e.firstName,
-                    familyName:e.familyName,
-                    comment:e.comment
-                }   
-            )   
-            }
-        })      
+      setIndex(index+1)
+      if(index===dataTestim.length-1){
+          setIndex(0)
+      }
     }
-
+    
     function prev (){
         setIndex(index-1)
         if(index===0){
             setIndex(dataTestim.length-1)
-        }
-        dataTestim.map(function(e){
-            if(index===e.id){
-                setElement({
-                    firstName:e.firstName,
-                    familyName:e.familyName,
-                    comment:e.comment
-                }   
-            )   
-            }
-        })      
     }
+}
 
-
-
-
-    console.log(index,element)
     return (
         <div className='form_container'>
             <div className="form_left">
@@ -75,9 +41,17 @@ function Form() {
                 <div className="form_testim" >
                     <AiOutlineLeftCircle className="testim_left" onClick={prev} />
                         <div className="form_test_content" >
-                          <h3>{element.firstName} </h3> 
-                           <h3> {element.familyName}</h3>
-                           <div>{element.comment}</div>
+                            <div className='test_photo'>
+                                <img src={dataTestim[index].img} alt=""/>
+                            </div>
+                            <div className='test_info_blog' >
+                                <div className='test_comment' >{dataTestim[index].comment}</div>
+                                <div>
+                                <h3 className="test_name">{dataTestim[index].firstName} {dataTestim[index].familyName}</h3> 
+                                <h3 > {dataTestim[index].company}</h3>
+                                </div>  
+                           </div>
+                         
                         </div>
                     <AiOutlineRightCircle className="testim_right" onClick={next}/>
                 </div>
@@ -86,4 +60,4 @@ function Form() {
     )
 }
 
-export default Form
+export default FormSection
