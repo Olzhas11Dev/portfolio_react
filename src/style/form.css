@@ -118,6 +118,7 @@
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 4px;
+  user-select: none;
 }
 
 .testim_left,
@@ -141,6 +142,7 @@
   width: 150px;
   border-radius: 50%;
   margin-right: 60px;
+  user-select: none;
 }
 
 .test_info_blog {

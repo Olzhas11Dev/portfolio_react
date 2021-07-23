@@ -30,6 +30,11 @@
   font-weight: 300;
 }
 
+.header_links a {
+  color: white;
+  text-decoration: none;
+}
+
 .header_git {
   margin-right: 10px;
   width: 14px;

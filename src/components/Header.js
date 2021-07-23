@@ -12,9 +12,9 @@ function Header() {
             <div className="header_container">
                 <div className="header_left">Ol11.</div>
                   <ul className='header_links'>
-                      <li>Home</li>
-                      <li >< FaGithub className='header_git'/> Github </li>
-                      <li><VscMail className="header_mail"/></li>
+                      <li>Projects</li>
+                      <li > <a href="https://github.com/Olzhas11Dev?tab=repositories" target="_blank" >< FaGithub className='header_git'/> Github </a> </li>
+                      <li> <a href="#contact"><VscMail className="header_mail"/></a> </li>
                   </ul>          
             </div>
         </div>

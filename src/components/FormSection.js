@@ -2,13 +2,22 @@ import React,{ useState } from 'react'
 import '../style/form.css'
 import { AiOutlineLeftCircle,AiOutlineRightCircle } from 'react-icons/ai'
 import dataTestim from '../dataTestim'
+import emailjs from 'emailjs-com'
 
 function FormSection() {
     const[index,setIndex] = useState(0)
-    const[name,setName] = useState('')
-    const[email,setEmail] = useState('')
-    const[subject,setSubject] = useState('')
-    const[description,setDescription] = useState('')
+   
+    function sendEmail(e) {
+        e.preventDefault();
+    
+        emailjs.sendForm('service_pzn7wdc', 'template_ifsnjpp', e.target, 'user_WH70CXSZ5QV6LLpZWldSV')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+          e.target.reset()
+      }
 
     function next (){
       setIndex(index+1)
@@ -23,25 +32,24 @@ function FormSection() {
             setIndex(dataTestim.length-1)
     }
 }
-
-console.log(name,email,subject,description)
-
     return (
-        <div className='form_container'>
+        <div id="contact" className='form_container'>
             <div className="form_left">
-                <h1>Contact me</h1>
-                <h2>I'd love to hear from you</h2>
-                <div className="form_name_email" >
-                    <input  onChange={(e)=>setName(e.target.value)} className='form_name' type="text" placeholder="Name" value={name}/>
-                    <input  onChange={(e)=>setEmail(e.target.value)} className='form_email' type="text" placeholder="Email" value={email}/>
-                </div>
-                <div className = 'form_subjectDIv' >
-                    <input  onChange={(e)=>setSubject(e.target.value)} className='form_subject' type="text" placeholder="Subject" value={subject}/>   
-                </div>
-                <div className="form_textAreaDIv" >
-                    <textarea onChange={(e)=>setDescription(e.target.value)} className='form_textArea' name="" id="" cols="30" rows="10" placeholder="Description" value={description} spellCheck="false" ></textarea>
-                </div>
-                <button className="form_btn" >Send</button>
+                <form autocomplete="off" onSubmit={sendEmail}>
+                    <h1>Contact me</h1>
+                    <h2>I'd love to hear from you</h2>
+                    <div className="form_name_email" >
+                        <input  autocomplete="off" className='form_name' type="text" placeholder="Name"   name="name"/>
+                        <input  autocomplete="off"  className='form_email' type="text" placeholder="Email" name="email"/>
+                    </div>
+                    <div className = 'form_subjectDIv' >
+                        <input autocomplete="off" className='form_subject' type="text" placeholder="Subject" name="subject"/>   
+                    </div>
+                    <div className="form_textAreaDIv" >
+                        <textarea  autocomplete="off" className='form_textArea' id="" cols="30" rows="10" placeholder="Description" spellCheck="false" name="description"></textarea>
+                    </div>
+                     <input className="form_btn" type="submit" value="Send"/> 
+                </form>
             </div>
             <div className="form_right">
                 <h1 >Testimonials</h1>
