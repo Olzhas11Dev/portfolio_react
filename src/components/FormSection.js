@@ -35,18 +35,18 @@ function FormSection() {
     return (
         <div id="contact" className='form_container'>
             <div className="form_left">
-                <form autocomplete="off" onSubmit={sendEmail}>
+                <form  onSubmit={sendEmail}>
                     <h1>Contact me</h1>
                     <h2>I'd love to hear from you</h2>
                     <div className="form_name_email" >
-                        <input  autocomplete="off" className='form_name' type="text" placeholder="Name"   name="name"/>
-                        <input  autocomplete="off"  className='form_email' type="text" placeholder="Email" name="email"/>
+                        <input className='form_name' type="text" placeholder="Name"   name="name"/>
+                        <input  className='form_email' type="text" placeholder="Email" name="email"/>
                     </div>
                     <div className = 'form_subjectDIv' >
-                        <input autocomplete="off" className='form_subject' type="text" placeholder="Subject" name="subject"/>   
+                        <input className='form_subject' type="text" placeholder="Subject" name="subject"/>   
                     </div>
                     <div className="form_textAreaDIv" >
-                        <textarea  autocomplete="off" className='form_textArea' id="" cols="30" rows="10" placeholder="Description" spellCheck="false" name="description"></textarea>
+                        <textarea  className='form_textArea' id="" cols="30" rows="10" placeholder="Description" spellCheck="false" name="description"></textarea>
                     </div>
                      <input className="form_btn" type="submit" value="Send"/> 
                 </form>

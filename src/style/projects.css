@@ -1,0 +1,94 @@
+.project_container {
+  padding-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #252729;
+}
+.projects_card {
+  width: 33%;
+  height: 235px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.projects_card :hover.projects_content {
+  opacity: 0;
+}
+
+.projects_photo {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.projects_content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background-color: #101110;
+  opacity: 90%;
+  transition: opacity 0.2s linear;
+}
+
+.projects_title {
+  margin-bottom: 5px;
+}
+
+.projects_role {
+  font-weight: 300;
+}
+
+/* Modal */
+
+.project_modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  font-size: 40px;
+  background-color: #252729;
+}
+
+.project_modal_container {
+  position: relative;
+  justify-content: space-between;
+  display: flex;
+  margin: 200px auto;
+  width: 90%;
+  display: flex;
+}
+
+.project_modal_img {
+  width: 45%;
+}
+.modal_description {
+  width: 45%;
+  font-size: 12px;
+}
+
+.modal_title {
+  color: #61f4ad;
+}
+
+.project_close_btn {
+  width: 20px;
+  height: 20px;
+}
+
+.modal_text {
+  margin-top: 60px;
+  margin-bottom: 120px;
+}

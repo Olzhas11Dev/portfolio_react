@@ -1,11 +1,11 @@
 .form_container {
-  margin-top: 60px;
+  margin-top: 100px;
   padding-left: 100px;
   padding-right: 100px;
   width: 100vmax;
   height: 400px;
   display: flex;
-  margin-bottom: 60px;
+  margin-bottom: 100px;
 }
 
 .form_left {
