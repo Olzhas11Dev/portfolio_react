@@ -36,8 +36,8 @@
   top: 0;
   left: 0;
   z-index: 2;
-  background-color: #101110;
-  opacity: 90%;
+  background-color: #151e20;
+  opacity: 80%;
   transition: opacity 0.2s linear;
 }
 
