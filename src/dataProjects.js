@@ -16,7 +16,7 @@ const projectsData = [
         img: "./img/Dino.png",
         projects_title: 'Dino game',
         projects_role: 'Front end'
-    }
+    },
 
 ]
 

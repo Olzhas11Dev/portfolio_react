@@ -5,6 +5,7 @@ import Body from './components/Body'
 import About from './components/About'
 import FormSection from './components/FormSection'
 import Projects from './components/Projects'
+import ProjectSection from './components/ProjectSection'
 
 function App() {
   return (
@@ -12,8 +13,9 @@ function App() {
       <Header/>
       <Body/>
       <About/>
-      <Projects/>
+      <ProjectSection/>
       <FormSection/>
+     
     </div>
   );
 }

@@ -46,3 +46,30 @@
   width: 20px;
   height: 20px;
 }
+
+.icon_burger {
+  width: 40px;
+  height: 40px;
+
+  position: relative;
+  right: 0;
+  top: 0;
+  z-index: 10;
+  background-color: rgb(37, 37, 37);
+  padding: 10px;
+  display: none;
+}
+
+.header_links_active {
+  width: 100vh;
+  /* height: 100vmax; */
+  align-items: center;
+  list-style: none;
+  display: flex;
+}
+
+/* @media (max-width: 650px) {
+  .icon_burger {
+    display: flex;
+  }
+} */
