@@ -4,7 +4,6 @@ import Header from './components/Header'
 import Body from './components/Body'
 import About from './components/About'
 import FormSection from './components/FormSection'
-import Projects from './components/Projects'
 import ProjectSection from './components/ProjectSection'
 
 function App() {
@@ -15,7 +14,6 @@ function App() {
       <About/>
       <ProjectSection/>
       <FormSection/>
-     
     </div>
   );
 }

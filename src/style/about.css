@@ -107,6 +107,18 @@
     padding-left: 10px;
     padding-right: 10px;
   }
+
+  .about_right h1 {
+    font-size: 25px;
+  }
+
+  .about_right p {
+    font-size: 16px;
+  }
+
+  .about_card {
+    width: 100%;
+  }
 }
 
 @media (max-width: 414px) {
@@ -117,6 +129,9 @@
   }
 
   .about_card {
+    width: 100%;
+  }
+  .about_longText {
     width: 100%;
   }
 }

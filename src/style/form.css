@@ -180,6 +180,19 @@
     margin-top: 20px;
     width: 80%;
   }
+
+  .form_name_email {
+    width: 100%;
+    display: flex;
+  }
+
+  .form_subjectDIv {
+    width: 100%;
+  }
+
+  .form_textAreaDIv {
+    width: 100%;
+  }
 }
 
 @media (max-width: 800px) {
@@ -192,5 +205,11 @@
   .form_left {
     margin: auto;
     width: 80%;
+  }
+}
+
+@media (max-width: 414px) {
+  .form_btn {
+    width: 100%;
   }
 }
