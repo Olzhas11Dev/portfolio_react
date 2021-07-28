@@ -27,11 +27,11 @@ function ProjectsCard(props) {
 
     function openPage (id){
         if(id===0){
-            setUrlPath("https://ol-dino-11.netlify.app")
+            setUrlPath("https://mystifying-nightingale-3e6063.netlify.app/")
         } else if (id===1){
             setUrlPath('https://ol11-weather.netlify.app')
         } else if (id===2){
-            setUrlPath('https://ol-employee-list.netlify.app')
+            setUrlPath('https://relaxed-ptolemy-b1d863.netlify.app/')
         }
        
     }
