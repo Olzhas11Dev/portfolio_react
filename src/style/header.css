@@ -16,7 +16,7 @@
 }
 
 .header_links {
-  width: 30%;
+  width: 40%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -30,9 +30,19 @@
   font-weight: 300;
 }
 
+.header_links li :hover {
+  color: #61f4ad;
+  transition: color 0.1s linear;
+}
+
 .header_links a {
   color: white;
   text-decoration: none;
+}
+
+.header_contact {
+  display: flex;
+  align-items: center;
 }
 
 .header_git {
@@ -43,15 +53,17 @@
 }
 
 .header_mail {
-  width: 20px;
-  height: 20px;
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+  fill: #61f4ad;
 }
 
 .icon_burger {
   width: 40px;
   height: 40px;
 
-  position: relative;
+  position: fixed;
   right: 0;
   top: 0;
   z-index: 10;
@@ -60,16 +72,46 @@
   display: none;
 }
 
-.header_links_active {
-  width: 100vh;
-  /* height: 100vmax; */
-  align-items: center;
-  list-style: none;
-  display: flex;
+#linkUp {
+  color: #ffffff;
+  text-decoration: none;
 }
 
-/* @media (max-width: 650px) {
+.header_links_active {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 800px) {
   .icon_burger {
     display: flex;
   }
-} */
+
+  .header_container {
+    display: none;
+  }
+  .header_links {
+    width: 100%;
+    margin-top: 100px;
+
+    flex-direction: column;
+  }
+
+  .header_left {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    background-color: black;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+  }
+  .header_links li {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 10px;
+    border-bottom: 1px grey solid;
+  }
+}

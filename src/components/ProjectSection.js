@@ -7,10 +7,10 @@ import ProjCard from './ProjCard'
 function ProjectSection() {
    
     return (
-        <div className='pics'>
-         {dataProjects.map(function(e){
+        <div id="projectSection" className='pics'>
+         {dataProjects.map(function(e,index){
             return (
-                <ProjCard id={e.id} title={e.projects_title} role={e.projects_role} img={e.img}/>
+                <ProjCard id={e.id} title={e.projects_title} role={e.projects_role} img={e.img} key={index} />
             )
             })}
         </div>  

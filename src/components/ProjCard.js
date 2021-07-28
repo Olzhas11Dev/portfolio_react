@@ -17,10 +17,10 @@ function ProjCard(props) {
     }
 
     let Modal = 
-    <div className="project_modal" > 
+    <div  className="project_modal" > 
         <div className="project_modal_container">
             <img className='project_modal_img' src={props.img} alt=""/>
-            <div className='modal_description'>
+            <div  className='modal_description'>
                 <h1 className="modal_title" >{props.title}</h1>
                 <div className="modal_text" >
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
