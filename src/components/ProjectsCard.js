@@ -28,7 +28,6 @@ function ProjectsCard(props) {
     function openPage (id){
         if(id===0){
             setUrlPath("https://ol-dino-11.netlify.app")
-            
         } else if (id===1){
             setUrlPath('https://ol11-weather.netlify.app')
         } else if (id===2){
