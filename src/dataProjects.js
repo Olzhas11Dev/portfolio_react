@@ -1,8 +1,8 @@
 const projectsData = [
     {
         id: 0 ,
-        img: "./img/Employee_list.png",
-        projects_title: 'EMPLOYEE LIST',
+        img: "./img/Dino.png",
+        projects_title: 'DINO GAME',
         projects_role: 'Front end'
     },
     {
@@ -13,8 +13,8 @@ const projectsData = [
     },
     {
         id: 2 ,
-        img: "./img/Dino.png",
-        projects_title: 'Dino game',
+        img: "./img/Employee_list.png",
+        projects_title: 'EMPLOYEE LIST',
         projects_role: 'Front end'
     },
 
