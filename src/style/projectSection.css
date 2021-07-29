@@ -97,6 +97,7 @@
   .project_modal_container {
     display: flex;
     flex-direction: column;
+    margin: 40px auto;
   }
 
   .modal_description {
@@ -146,5 +147,36 @@
 @media (max-width: 320px) {
   .pic_oneCard {
     height: 200px;
+  }
+}
+
+/* Height */
+
+@media (max-height: 770px) {
+  .modal_text {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-height: 414px) {
+  .project_modal_container {
+    width: 70%;
+    margin: 30px auto;
+  }
+
+  .modal_description {
+    margin-top: 5px;
+  }
+  .modal_title {
+    font-size: 14px;
+  }
+  .modal_text {
+    display: none;
+  }
+}
+
+@media (max-height: 320px) {
+  .project_modal_container {
+    width: 60%;
   }
 }
