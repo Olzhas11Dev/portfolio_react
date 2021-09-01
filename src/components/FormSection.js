@@ -6,6 +6,7 @@ import emailjs from 'emailjs-com'
 
 function FormSection() {
     const[index,setIndex] = useState(0)
+    // const[wasSent,setWasSent] = useState(false)
    
     function sendEmail(e) {
         e.preventDefault();
@@ -13,6 +14,7 @@ function FormSection() {
         emailjs.sendForm('service_pzn7wdc', 'template_ifsnjpp', e.target, 'user_WH70CXSZ5QV6LLpZWldSV')
           .then((result) => {
               console.log(result.text);
+              
           }, (error) => {
               console.log(error.text);
           });
@@ -48,7 +50,11 @@ function FormSection() {
                     <div className="form_textAreaDIv" >
                         <textarea  className='form_textArea' id="" cols="30" rows="10" placeholder="Description" spellCheck="false" name="description"></textarea>
                     </div>
-                     <input className="form_btn" type="submit" value="Send"/> 
+                    {/* {wasSent ? 'Email was sent' :
+                        <input className="form_btn" type="submit" value="Send"/> 
+                    } */}
+                    <input className="form_btn" type="submit" value="Send"/> 
+                     
                 </form>
             </div>
             <div className="form_right">
