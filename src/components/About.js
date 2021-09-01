@@ -19,11 +19,9 @@ function About() {
                 <div className="about_about">ABOUT ME</div>    
                 <h1>Hi there! I'm Olzhas </h1>         
                 <p>My main area of interest is<span> FRONT END</span></p>
-                <p className="about_longText" >Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Dolorem harum minus recusandae iste explicabo adipisci accusamus id inventore! 
-                    iste explicabo adipisci accusamus id inventore! Dolorem harum minus recusandae 
-                    Dolorem harum minus recusandae iste explicabo adipisci accusamus id inventore! 
-                    iste explicabo adipisci accusamus id inventore! Dolorem harum minus recusandae 
+                <p className="about_longText" >I describe myself as a passionate developer who loves coding, open source, and the web platform.
+                Aside from my job, I like to create and contribute to open source projects. That helps me to learn a ton of new stuff, 
+                grow as a developer and support other open source projects.
                 </p>
             </div>
         </div>
