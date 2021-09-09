@@ -5,7 +5,7 @@ const dataTestim = [
         firstName: 'Vika',
         familyName: 'Dorokhova',
         company: "Primo Digital",
-        comment: 'That was excelent project'
+        comment: 'Olzhas is very dedicated developer, we launched a new website in time'
     },
     {
         id:1,
@@ -13,7 +13,7 @@ const dataTestim = [
         firstName: 'Giliana',
         familyName: 'Wolfs',
         company: "TheMarket.NZ",
-        comment: 'It was a good project, we were able to create something amazing'
+        comment: 'The usability & functuanality of our new website are just amazing'
     },
     {
         id:2,
@@ -21,7 +21,7 @@ const dataTestim = [
         firstName: 'Alan',
         familyName: 'Kan',
         company: "Mission Ready",
-        comment: 'The final project was done in advance!!!'
+        comment: 'I can always rely on Olzhas when it comes to front-end development'
     },
     {
         id:3,
@@ -29,7 +29,7 @@ const dataTestim = [
         firstName: 'Katerina',
         familyName: 'Blik',
         company: "YellowPages",
-        comment: 'That was excelent project'
+        comment: 'I had a pleasure working with Olzhas, he is very professional & passionate about web development'
     }
 ]
 
