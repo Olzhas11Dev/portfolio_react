@@ -174,7 +174,8 @@
   margin-bottom: 20px;
 }
 
-/* Responsive */
+/* Max-width */
+
 @media (max-width: 1024px) {
   .form_container {
     display: flex;

@@ -1,8 +1,5 @@
 import React from 'react'
 import '../style/body.css'
-import { FaReact,FaNodeJs } from 'react-icons/fa'
-import { DiJavascript1,DiCss3,DiMongodb } from 'react-icons/di' 
-import { TiHtml5 } from 'react-icons/ti'
 
 function Body() {
     return (
@@ -20,12 +17,6 @@ function Body() {
             </div>
             <div className="body_right">
                 <div className="body_dev_icon"><img src="./img/dev_icon.png" alt="#"/> </div>
-                <FaReact className="body_react_icon"/>
-                <DiJavascript1 className='body_js_icon'/>
-                <TiHtml5 className="body_html_icon" />
-                <DiCss3  className="body_css_icon"/>
-                <FaNodeJs className="body_nodejs_icon"/>
-                <DiMongodb className="body_mongodb_icon"/>
             </div>
         </div>
     )
