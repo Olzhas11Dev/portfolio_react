@@ -17,7 +17,6 @@ function Header() {
         if (window.scrollY > 400) {
             setOpen(false)
         }
-        
     }
 
     window.addEventListener('resize',popup)

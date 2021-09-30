@@ -6,13 +6,12 @@
   align-items: center;
   padding-left: 100px;
   padding-right: 100px;
-  font-size: 14px;
   background-color: #2c2f32;
 }
 
 .header_left {
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .header_links {
@@ -24,6 +23,7 @@
 
 .header_links li {
   display: flex;
+
   align-items: center;
   list-style: none;
   cursor: pointer;
@@ -36,6 +36,7 @@
 }
 
 .header_links a {
+  font-size: 1rem;
   color: white;
   text-decoration: none;
 }

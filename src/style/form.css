@@ -5,17 +5,17 @@
   width: 100%;
   height: 400px;
   display: flex;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
 }
 
 .form_left {
-  width: 60%;
+  width: 50%;
 }
 
 .form_left h1 {
   margin-bottom: 20px;
   font-size: 3rem;
-  color: #08fdd8;
+  font-weight: 400;
 }
 
 .form_left h2 {
@@ -100,16 +100,52 @@
   background-color: #222527;
 }
 
-/* right Testimonials section */
+/* form_right */
 
-.form_test_content {
-  width: 80%;
-  height: 200px;
-  font-size: 12px;
-  margin: -100px auto;
-  display: flex;
-  justify-content: space-between;
+.form_right {
+  width: 50%;
+}
+
+.form_right h1 {
+  margin-bottom: 20px;
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.form_right h2 {
+  margin-bottom: 20px;
+  font-weight: 300;
+  color: grey;
+}
+
+.phone_icon {
+  width: 28px;
+  height: 28px;
+  color: grey;
+  margin-bottom: 20px;
+}
+
+.form_call_section {
+  background-color: #222527;
+  height: 270px;
   padding: 20px;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+}
+
+.form_left_text {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 300;
+  text-align: center;
+  color: grey;
+}
+
+.phone_number {
+  font-size: 1.3rem;
+  margin-top: 40px;
 }
 
 /* Max-width */
