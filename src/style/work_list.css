@@ -141,8 +141,12 @@ a {
   .work_modal_container {
     flex-direction: column;
     width: 80%;
-    height: 80%;
+    height: 70%;
     margin: 65px auto;
+  }
+
+  .work_pic {
+    height: 60%;
   }
 
   .work_list_tech {
@@ -157,13 +161,16 @@ a {
   }
   .work_list_title {
     text-align: center;
+    font-size: 1rem;
   }
   .work_list_description {
     margin-top: 20px;
     height: 40px;
+    font-size: 0.8rem;
   }
   .work_list_link {
     width: 100%;
+    margin-top: 5px;
   }
 }
 
@@ -173,8 +180,12 @@ a {
     flex-direction: row;
     margin: 48px auto;
   }
-  .work_list_right {
+  .work_pic {
     width: 50%;
+    height: 100%;
+  }
+  .work_list_right {
+    width: 45%;
   }
   .work_list_description {
     height: 120px;
