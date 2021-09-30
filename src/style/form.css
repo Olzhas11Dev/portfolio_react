@@ -157,13 +157,30 @@
   }
 
   .form_right {
-    display: none;
+    margin: auto;
+    margin-top: 20px;
+    width: 90%;
+    order: 1;
+    margin-bottom: 20px;
+  }
+
+  .form_right h1,
+  h2 {
+    font-size: 2rem;
+    text-align: center;
   }
 
   .form_left {
+    order: 2;
     margin: auto;
     margin-top: 20px;
-    width: 80%;
+    width: 90%;
+  }
+
+  .form_left h1,
+  h2 {
+    font-size: 2rem;
+    text-align: center;
   }
 
   .form_name_email {
@@ -182,14 +199,14 @@
 
 @media (max-width: 800px) {
   .form_container {
-    /* width: 100%; */
     padding-left: 10px;
     padding-right: 10px;
   }
+}
 
-  .form_left {
-    margin: auto;
-    width: 80%;
+@media (max-width: 450px) {
+  .form_name_email {
+    width: 101%;
   }
 }
 

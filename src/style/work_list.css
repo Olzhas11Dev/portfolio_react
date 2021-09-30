@@ -136,3 +136,29 @@ a {
     width: 50%;
   }
 }
+
+@media (max-width: 800px) {
+  .work_modal_container {
+    flex-direction: column;
+    width: 80%;
+    height: 80%;
+    margin: 40px auto;
+  }
+
+  .work_pic {
+  }
+  .work_list_right {
+    width: 100%;
+    height: 50%;
+  }
+  .work_list_title {
+    text-align: center;
+  }
+  .work_list_description {
+    margin-top: 20px;
+    height: 40px;
+  }
+  .work_list_link {
+    width: 100%;
+  }
+}
