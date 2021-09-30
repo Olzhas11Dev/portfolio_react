@@ -57,9 +57,9 @@
   position: relative;
   justify-content: space-between;
   display: flex;
-  margin: 100px auto;
+  margin: 140px auto;
   width: 70%;
-  height: 70%;
+  height: 460px;
   background-color: #2c2f32;
 }
 
@@ -93,7 +93,7 @@
 }
 
 .work_list_description {
-  height: 200px;
+  height: 100px;
   margin-top: 40px;
   font-size: 1rem;
   font-weight: 100;
@@ -134,9 +134,28 @@ a {
   background-color: #222527;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
   .work_card_item {
     width: 50%;
+  }
+
+  .work_modal_container {
+    width: 85%;
+    height: 400px;
+    margin: 150px auto;
+  }
+  .work_list_description {
+    height: 70px;
+  }
+  .work_list_tech {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .work_modal_container {
+    margin: 250px auto;
+    height: 320spx;
   }
 }
 
@@ -178,12 +197,21 @@ a {
   }
 }
 
+@media (max-width: 320px) {
+  .work_modal_container {
+    margin: 60px auto;
+    width: 80%;
+    min-height: 430px;
+  }
+}
+
 /* Horizontal */
+
 @media (max-height: 420px) {
   .work_modal_container {
     flex-direction: row;
     margin: 48px auto;
-    min-height: 280px;
+    height: 290px;
   }
   .work_pic {
     width: 50%;
@@ -191,9 +219,30 @@ a {
   }
   .work_list_right {
     width: 45%;
+    padding-left: 10px;
+    margin-top: 15px;
   }
   .work_list_description {
-    height: 120px;
-    margin-top: 70px;
+    height: 35px;
+    margin-top: 30px;
+  }
+  .work_list_tech {
+    margin-top: 40px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-height: 320px) {
+  .work_modal_container {
+    flex-direction: row;
+    margin: 40px auto;
+    height: 225px;
+  }
+  .work_list_description {
+    font-size: 0.7rem;
+    margin-top: 10px;
+  }
+  .work_list_tech {
+    margin-top: 20px;
   }
 }
