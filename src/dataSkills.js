@@ -1,4 +1,3 @@
-import { DiTrello } from "react-icons/di"
 
 const dataSkills = [
   

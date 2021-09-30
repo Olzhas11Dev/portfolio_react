@@ -1,12 +1,9 @@
-import React ,{useEffect}from 'react'
+import React from 'react'
 import '../style/about.css'
 import Card from './Card'
 import dataSkills from '../dataSkills'
 
-
-
 function About() {
-
 
     return (
         <div className="about_container">
