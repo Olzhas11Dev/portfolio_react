@@ -141,7 +141,7 @@ a {
   .work_modal_container {
     flex-direction: column;
     width: 80%;
-    min-height: 70%;
+    min-height: 600px;
     margin: 65px auto;
   }
 
@@ -179,6 +179,7 @@ a {
   .work_modal_container {
     flex-direction: row;
     margin: 48px auto;
+    min-height: 280px;
   }
   .work_pic {
     width: 50%;
