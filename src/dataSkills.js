@@ -8,7 +8,7 @@ const dataSkills = [
     text: 'Design is important because it impacts how your audience perceives your brand. The impression you make on them can either get them to remain on your page and learn about your business or leave your page and turn to a competitor. A good web design helps you keep your leads on your page.'
     },
     {id:2 ,skills: 'Teamwork skills', tools: 'Trello,Jira',
-    text: 'Teamwork skills are essential to your success at work, no matter your industry or job title. Working well with clients, colleagues, managers and other people in your workplace can help you complete tasks efficiently while creating an enjoyable environment both for yourself and others. An organization that emphasizes good teamwork skills is typically a healthy, high-functioning workplace.'
+    text: 'Teamwork skills are essential to your success at work, no matter your industry or job title. Working well with clients, colleagues, managers and other people in your workplace can help you complete tasks efficiently while creating an enjoyable environment both for yourself and others.'
     }
 ]
 
