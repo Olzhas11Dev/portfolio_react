@@ -6,7 +6,7 @@ const projectsDb = [
         projects_role: 'Front end',
         path:'https://contact-detail-app.netlify.app',
         technology: 'React, Redux',
-        description: 'The main purpose of application was to create own contact app'
+        description: 'As I love developing something really tangible and useful, I was inspired to create the contact app. So users can have all contacts in one place.'
 
     },
     {
@@ -16,7 +16,7 @@ const projectsDb = [
         projects_role: 'Front end',
         path:'https://tava-test-update.netlify.app',
         technology: 'React Js',
-        description: 'Working in Moana Digital I had a chance to build a website for Medical Center '
+        description: 'Working with Moana Digital created the opportunity to build the website for TAVA Medical Centre. I’ve developed a user friendly website from the scratch.'
     },
     {
         id: 3 ,
@@ -25,7 +25,7 @@ const projectsDb = [
         projects_role: 'Front end',
         path:'https://mystifying-nightingale-3e6063.netlify.app',
         technology: 'JS',
-        description: 'As my son is little and study counting ,this app was mostly to study him to count'
+        description: 'This game allowed my son to learn more about counting! We had so much fun playing it together.'
     },
     {
         id: 4 ,
@@ -34,7 +34,7 @@ const projectsDb = [
         projects_role: 'Front end',
         path:'https://ol11-weather.netlify.app',
         technology: 'Js,Jquery',
-        description: 'The main purpose off application was to create own contact app'
+        description: 'Weather is so unpredictable! To check the weather in other cities just type it in.I used an API to develop it.'
     },
     {
         id: 5 ,
@@ -43,7 +43,7 @@ const projectsDb = [
         projects_role: 'Front end',
         path:'https://relaxed-ptolemy-b1d863.netlify.app',
         technology: 'React Js',
-        description: 'The main purpose off application was to create own contact app'
+        description: 'Using this feature will allow you to see the overall list of employees. You can add different columns with various parameters.'
     }
   
 

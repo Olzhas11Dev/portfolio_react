@@ -17,7 +17,7 @@ function WorkList() {
     
     return (
 
-        <div className='work_list_main' >
+        <div id='projectSection'  className='work_list_main' >
             <div className="work_list_row">
                 {projectsDb.map((e)=>{
                     return (
